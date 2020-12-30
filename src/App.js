@@ -46,9 +46,10 @@ function App() {
   return (
     <Router>
       <Nav>
-        <Logo>
-          <Link to="/"></Link>
-        </Logo>
+        <Link to="/">
+          <Logo> </Logo>
+        </Link>
+
         <WrapperNavItem>
           <NavItem>
             <Link to="/popular">Popular</Link>
@@ -64,7 +65,6 @@ function App() {
           </NavItem>
         </WrapperNavItem>
       </Nav>
-
       <WrapperSearch>
         <SearchBar></SearchBar>
       </WrapperSearch>

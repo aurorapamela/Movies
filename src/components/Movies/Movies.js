@@ -41,7 +41,7 @@ const Movies = ({ children, url, limit = 5 }) => {
         //console.log(data)
         setMovies(data.results);
       });
-  }, []);
+  }, [url]);
 
   return (
     <StyledWrapperMovies>
